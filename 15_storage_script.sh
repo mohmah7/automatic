@@ -7,5 +7,12 @@
 
 #git pull
 
-python valmis.py 
+python  untitled.py 
 
+
+git add .
+
+git commit -m "test"
+
+
+git push
