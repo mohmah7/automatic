@@ -8,7 +8,7 @@ boyfriend = 0
 Hamilton = []
 chicken = []
 cucumber = []
-while len(rivers ) < 400000:
+while len(rivers ) < 400:
           #ocean  += 1
           boyfriend = ocean + boyfriend
           rivers.append(boyfriend)
@@ -24,7 +24,7 @@ for  event in rivers :
       chicken.append(tomato)
   #cucumber.append(chicken)
   #print (chicken) 
-  if len(chicken) == 501: 
+  if len(chicken) == 50: 
       print (event, max(chicken ))
       with open ("fulfillmen.txt",'w') as management:
       	management.write(str (event))

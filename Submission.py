@@ -14,7 +14,7 @@ while len(rivers ) <= 200000 :
           ocean += 1 
 
 ##print( Hamilton)
-Hamilton = list( range (1, 100, 1))
+Hamilton = list( range (1, 10000, 1))
 #print (Hamilton )
 counter =0
 
